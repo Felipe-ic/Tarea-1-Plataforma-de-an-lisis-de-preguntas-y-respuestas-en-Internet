@@ -8,6 +8,7 @@ Sistema distribuido para comparar respuestas generadas por LLM vs respuestas hum
 - Docker
 - Docker Compose
 - API Key de Google Gemini (definida en `key.env`)
+- tener el archivo csv descargado en la carpeta "data"
 
 ## Instalación y Ejecución con Docker Compose
 ```bash
@@ -35,6 +36,7 @@ docker exec -it qa-analysis-system psql -U postgres -d qa_db
 
 # Abrir bash en el contenedor
 docker exec -it qa-analysis-system /bin/bash
+
 
 
 
